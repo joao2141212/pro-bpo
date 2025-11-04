@@ -16,7 +16,7 @@ export function Layout({ children }: LayoutProps) {
           <header className="h-16 border-b border-border bg-card flex items-center justify-between px-6 sticky top-0 z-10 backdrop-blur-sm bg-card/80">
             <div className="flex items-center gap-4">
               <SidebarTrigger />
-              <h1 className="text-lg font-semibold text-foreground">PlayBPO</h1>
+              <h1 className="text-lg font-semibold text-foreground">ProBPO</h1>
             </div>
             <div className="flex items-center gap-3">
               <Button variant="ghost" size="icon" className="relative">
