@@ -42,11 +42,7 @@ export default function Dashboard() {
     <div className="space-y-6 animate-fade-in">
       <div className="flex items-center justify-between">
         <div>
-<<<<<<< HEAD
           <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-=======
-          <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
             Dashboard
           </h1>
           <p className="text-muted-foreground">Visão geral da operação em tempo real</p>
@@ -88,30 +84,18 @@ export default function Dashboard() {
             <Building2 className={`h-5 w-5 text-primary transition-transform duration-300 ${hoveredCard === "empresas" ? "scale-125" : ""}`} />
           </CardHeader>
           <CardContent>
-<<<<<<< HEAD
             <div className="text-3xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
               142
             </div>
             <div className="flex items-center gap-1 mt-2">
               <Badge variant="default" className="bg-primary/10 text-primary border-primary/20">
-=======
-            <div className="text-3xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              142
-            </div>
-            <div className="flex items-center gap-1 mt-2">
-              <Badge variant="default" className="bg-accent text-accent-foreground">
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                 <TrendingUp className="h-3 w-3 mr-1" />
                 +12%
               </Badge>
               <p className="text-xs text-muted-foreground">desde o mês passado</p>
             </div>
             <div className="mt-3 h-1 bg-secondary rounded-full overflow-hidden">
-<<<<<<< HEAD
               <div className="h-full bg-gradient-to-r from-primary to-primary/80 w-[87%] animate-slide-in" />
-=======
-              <div className="h-full bg-gradient-to-r from-primary to-accent w-[87%] animate-slide-in" />
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
             </div>
           </CardContent>
         </Card>
@@ -127,19 +111,11 @@ export default function Dashboard() {
             <Users className={`h-5 w-5 text-primary transition-transform duration-300 ${hoveredCard === "operadores" ? "scale-125 rotate-12" : ""}`} />
           </CardHeader>
           <CardContent>
-<<<<<<< HEAD
             <div className="text-3xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
               28
             </div>
             <div className="flex items-center gap-1 mt-2">
               <Badge variant="default" className="bg-primary/10 text-primary border-primary/20">
-=======
-            <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              28
-            </div>
-            <div className="flex items-center gap-1 mt-2">
-              <Badge variant="default" className="bg-accent text-accent-foreground">
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                 <TrendingUp className="h-3 w-3 mr-1" />
                 +2
               </Badge>
@@ -171,11 +147,7 @@ export default function Dashboard() {
             <Clock className={`h-5 w-5 text-primary transition-transform duration-300 ${hoveredCard === "horas" ? "scale-125 -rotate-12" : ""}`} />
           </CardHeader>
           <CardContent>
-<<<<<<< HEAD
             <div className="text-3xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-=======
-            <div className="text-3xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
               4.892h
             </div>
             <div className="flex items-center gap-1 mt-2">
@@ -200,7 +172,6 @@ export default function Dashboard() {
         >
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Taxa de Conclusão</CardTitle>
-<<<<<<< HEAD
             <CheckCircle2 className={`h-5 w-5 text-primary transition-transform duration-300 ${hoveredCard === "conclusao" ? "scale-125 rotate-360" : ""}`} />
           </CardHeader>
           <CardContent>
@@ -209,27 +180,13 @@ export default function Dashboard() {
             </div>
             <div className="flex items-center gap-1 mt-2">
               <Badge variant="default" className="bg-primary/10 text-primary border-primary/20">
-=======
-            <CheckCircle2 className={`h-5 w-5 text-accent transition-transform duration-300 ${hoveredCard === "conclusao" ? "scale-125 rotate-360" : ""}`} />
-          </CardHeader>
-          <CardContent>
-            <div className="text-3xl font-bold bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent">
-              95.7%
-            </div>
-            <div className="flex items-center gap-1 mt-2">
-              <Badge variant="default" className="bg-accent text-accent-foreground">
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                 <Target className="h-3 w-3 mr-1" />
                 +2.3%
               </Badge>
               <p className="text-xs text-muted-foreground">vs mês anterior</p>
             </div>
             <div className="mt-3 relative h-2 bg-secondary rounded-full overflow-hidden">
-<<<<<<< HEAD
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary/80 w-[96%] rounded-full animate-slide-in" />
-=======
-              <div className="absolute inset-0 bg-gradient-to-r from-accent to-primary w-[96%] rounded-full animate-slide-in" />
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
             </div>
           </CardContent>
         </Card>
@@ -277,12 +234,8 @@ export default function Dashboard() {
                 />
                 <Bar 
                   dataKey="concluidas" 
-<<<<<<< HEAD
                   fill="hsl(var(--primary))" 
                   fillOpacity={0.7}
-=======
-                  fill="hsl(var(--accent))" 
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                   radius={[8, 8, 0, 0]}
                   animationBegin={100}
                   animationDuration={800}
@@ -295,11 +248,7 @@ export default function Dashboard() {
         <Card className="col-span-3 hover-lift">
           <CardHeader className="flex flex-row items-center justify-between">
             <CardTitle className="flex items-center gap-2">
-<<<<<<< HEAD
               <Target className="h-5 w-5 text-primary" />
-=======
-              <Target className="h-5 w-5 text-accent" />
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
               Status das Tarefas
             </CardTitle>
           </CardHeader>
@@ -319,15 +268,11 @@ export default function Dashboard() {
                   animationDuration={800}
                 >
                   {statusData.map((entry, index) => (
-<<<<<<< HEAD
                     <Cell key={`cell-${index}`} fill={
                       entry.name === "Em Dia" ? "hsl(var(--primary))" :
                       entry.name === "Atrasadas" ? "hsl(var(--destructive))" :
                       "hsl(var(--muted-foreground))"
                     } />
-=======
-                    <Cell key={`cell-${index}`} fill={entry.color} />
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                   ))}
                 </Pie>
                 <Tooltip 
@@ -348,15 +293,11 @@ export default function Dashboard() {
                   <div className="flex items-center gap-2">
                     <div 
                       className="w-3 h-3 rounded-full" 
-<<<<<<< HEAD
                       style={{ 
                         backgroundColor: item.name === "Em Dia" ? "hsl(var(--primary))" :
                                         item.name === "Atrasadas" ? "hsl(var(--destructive))" :
                                         "hsl(var(--muted-foreground))"
                       }}
-=======
-                      style={{ backgroundColor: item.color }}
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                     />
                     <span className="text-sm font-medium">{item.name}</span>
                   </div>
@@ -411,16 +352,10 @@ export default function Dashboard() {
                 <Line 
                   type="monotone" 
                   dataKey="eficiencia" 
-<<<<<<< HEAD
                   stroke="hsl(var(--primary))" 
                   strokeOpacity={0.7}
                   strokeWidth={3}
                   dot={{ fill: "hsl(var(--primary))", fillOpacity: 0.7, r: 5 }}
-=======
-                  stroke="hsl(var(--accent))" 
-                  strokeWidth={3}
-                  dot={{ fill: "hsl(var(--accent))", r: 5 }}
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                   activeDot={{ r: 8 }}
                   animationDuration={1000}
                   animationBegin={200}
@@ -449,11 +384,7 @@ export default function Dashboard() {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <div className={`w-2 h-2 rounded-full mt-2 ${
-<<<<<<< HEAD
                     activity.tipo === "success" ? "bg-primary animate-pulse" :
-=======
-                    activity.tipo === "success" ? "bg-accent animate-pulse" :
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
                     activity.tipo === "warning" ? "bg-destructive animate-pulse" :
                     "bg-primary animate-pulse"
                   }`} />

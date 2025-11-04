@@ -10,7 +10,6 @@ import Indicadores from "./pages/Indicadores";
 import Usuarios from "./pages/Usuarios";
 import EmpresaOperador from "./pages/EmpresaOperador";
 import Timesheet from "./pages/Timesheet";
-<<<<<<< HEAD
 import Tarefas from "./pages/Tarefas";
 import Checklist from "./pages/Checklist";
 import Arquivos from "./pages/Arquivos";
@@ -19,8 +18,6 @@ import Integracoes from "./pages/Integracoes";
 import Financeiro from "./pages/Financeiro";
 import PlayBox from "./pages/PlayBox";
 import Indicacoes from "./pages/Indicacoes";
-=======
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
 import ComingSoon from "./pages/ComingSoon";
 import NotFound from "./pages/NotFound";
 
@@ -42,7 +39,6 @@ const App = () => (
             <Route path="/timesheet" element={<Timesheet />} />
             <Route
               path="/tarefas"
-<<<<<<< HEAD
               element={<Tarefas />}
             />
             <Route
@@ -72,37 +68,6 @@ const App = () => (
             <Route
               path="/indicacoes"
               element={<Indicacoes />}
-=======
-              element={<ComingSoon title="Tarefas Padrão" description="Gerencie templates de tarefas recorrentes" />}
-            />
-            <Route
-              path="/checklist"
-              element={<ComingSoon title="Checklist Padrão" description="Configure checklists modelo por processo" />}
-            />
-            <Route
-              path="/arquivos"
-              element={<ComingSoon title="Gestão de Arquivos" description="Upload e organização de documentos" />}
-            />
-            <Route
-              path="/whatsapp"
-              element={<ComingSoon title="WhatsApp Pro" description="Integração com WhatsApp Business API" />}
-            />
-            <Route
-              path="/integracoes"
-              element={<ComingSoon title="Integrações" description="Conecte ERPs e sistemas externos" />}
-            />
-            <Route
-              path="/financeiro"
-              element={<ComingSoon title="Financeiro na Mão" description="Gestão financeira simplificada" />}
-            />
-            <Route
-              path="/playbox"
-              element={<ComingSoon title="PlayBox" description="Central de ajuda e documentação" />}
-            />
-            <Route
-              path="/indicacoes"
-              element={<ComingSoon title="Comece a Indicar" description="Programa de indicações e recompensas" />}
->>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
             />
             <Route path="*" element={<NotFound />} />
           </Routes>

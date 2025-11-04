@@ -16,7 +16,7 @@ const usuarios = [
   {
     id: 1,
     nome: "João Silva",
-    email: "joao.silva@playbpo.com",
+    email: "joao.silva@probpo.com",
     telefone: "(11) 98765-4321",
     role: "Operador",
     empresas: 12,
@@ -25,7 +25,7 @@ const usuarios = [
   {
     id: 2,
     nome: "Maria Santos",
-    email: "maria.santos@playbpo.com",
+    email: "maria.santos@probpo.com",
     telefone: "(11) 98765-4322",
     role: "Operador",
     empresas: 8,
@@ -34,7 +34,7 @@ const usuarios = [
   {
     id: 3,
     nome: "Pedro Costa",
-    email: "pedro.costa@playbpo.com",
+    email: "pedro.costa@probpo.com",
     telefone: "(11) 98765-4323",
     role: "Supervisor",
     empresas: 5,
@@ -43,7 +43,7 @@ const usuarios = [
   {
     id: 4,
     nome: "Ana Lima",
-    email: "ana.lima@playbpo.com",
+    email: "ana.lima@probpo.com",
     telefone: "(11) 98765-4324",
     role: "Operador",
     empresas: 15,
@@ -52,7 +52,7 @@ const usuarios = [
   {
     id: 5,
     nome: "Carlos Mendes",
-    email: "carlos.mendes@playbpo.com",
+    email: "carlos.mendes@probpo.com",
     telefone: "(11) 98765-4325",
     role: "Admin",
     empresas: 0,
@@ -61,7 +61,7 @@ const usuarios = [
   {
     id: 6,
     nome: "Juliana Souza",
-    email: "juliana.souza@playbpo.com",
+    email: "juliana.souza@probpo.com",
     telefone: "(11) 98765-4326",
     role: "Operador",
     empresas: 6,
