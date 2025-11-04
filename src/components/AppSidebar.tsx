@@ -10,7 +10,13 @@ import {
   MessageSquare,
   Plug,
   Wallet,
+<<<<<<< HEAD
   FolderOpen,
+=======
+  BookOpen,
+  FolderOpen,
+  Gift,
+>>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
   LayoutDashboard,
 } from "lucide-react";
 import {
@@ -48,7 +54,12 @@ const integracoesItems = [
 ];
 
 const outrosItems = [
+<<<<<<< HEAD
   // Itens removidos temporariamente: PlayBox e Comece a Indicar
+=======
+  { title: "PlayBox", url: "/playbox", icon: BookOpen },
+  { title: "Comece a Indicar", url: "/indicacoes", icon: Gift },
+>>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
 ];
 
 export function AppSidebar() {
@@ -81,6 +92,7 @@ export function AppSidebar() {
     <Sidebar className={open ? "w-64" : "w-16"} collapsible="icon">
       <SidebarContent className="pt-4">
         <div className="px-4 pb-4 flex items-center gap-2">
+<<<<<<< HEAD
           <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg overflow-hidden">
             <img
               src="/logo-pb.png"
@@ -91,6 +103,14 @@ export function AppSidebar() {
           {open && (
             <div className="flex flex-col">
               <span className="text-sm font-bold text-sidebar-foreground">ProBPO</span>
+=======
+          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">
+            P
+          </div>
+          {open && (
+            <div className="flex flex-col">
+              <span className="text-sm font-bold text-sidebar-foreground">PlayBPO</span>
+>>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
               <span className="text-xs text-sidebar-foreground/70">Sistema de Gestão</span>
             </div>
           )}
@@ -111,12 +131,19 @@ export function AppSidebar() {
           <SidebarGroupContent>{renderMenuItems(integracoesItems)}</SidebarGroupContent>
         </SidebarGroup>
 
+<<<<<<< HEAD
         {outrosItems.length > 0 && (
           <SidebarGroup>
             <SidebarGroupLabel>Outros</SidebarGroupLabel>
             <SidebarGroupContent>{renderMenuItems(outrosItems)}</SidebarGroupContent>
           </SidebarGroup>
         )}
+=======
+        <SidebarGroup>
+          <SidebarGroupLabel>Outros</SidebarGroupLabel>
+          <SidebarGroupContent>{renderMenuItems(outrosItems)}</SidebarGroupContent>
+        </SidebarGroup>
+>>>>>>> 6253e0d8861ce2ac645066b9aefc176083417c1d
       </SidebarContent>
     </Sidebar>
   );
